@@ -1,22 +1,18 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
 
 const resources = {
   en: {
     translation: {
       "hero.title": "Full-Stack Developer",
-      "hero.subtitle":
-        "Building scalable web applications with modern technologies",
+      "hero.subtitle": "Building scalable web applications with modern technologies",
       "about.title": "About Me",
-      "about.description.part1":
-        "Engaged Full-Stack Developer with experience in designing, developing, and testing web applications.",
-      "about.description.part2":
-        "I possess strong programming skills and have gained expertise in working with clients, creating platforms to streamline order management, and conducting code reviews.",
-      "about.description.part3":
-        "I excel at effectively sharing technical knowledge and conducting programming workshops. I am characterized by analytical thinking, attention to detail, and strong teamwork skills.",
+      "about.description.part1": "Engaged Full-Stack Developer with experience in designing, developing, and testing web applications.",
+      "about.description.part2": "I possess strong programming skills and have gained expertise in working with clients, creating platforms to streamline order management, and conducting code reviews.",
+      "about.description.part3": "I excel at effectively sharing technical knowledge and conducting programming workshops. I am characterized by analytical thinking, attention to detail, and strong teamwork skills.",
       "about.resume": "Download Resume",
       "projects.title": "Featured Projects",
-      "projects.viewCode": "Projects",
+      "projects.viewCode": "Code",
       "projects.liveDemo": "Live Demo",
       "skills.title": "Skills",
       "contact.title": "Get in Touch",
@@ -28,25 +24,20 @@ const resources = {
       "projects.showMore": "Show More",
       "projects.showLess": "Show Less",
       "contact.success": "Message sent successfully!",
-      "contact.error":
-        "An error occurred while sending the message. Please try again later.",
-    },
+      "contact.error": "An error occurred while sending the message. Please try again later."
+    }
   },
   pl: {
     translation: {
       "hero.title": "Full-Stack Developer",
-      "hero.subtitle":
-        "Tworzenie skalowalnych aplikacji internetowych z wykorzystaniem nowoczesnych technologii",
+      "hero.subtitle": "Tworzenie skalowalnych aplikacji internetowych z wykorzystaniem nowoczesnych technologii",
       "about.title": "O mnie",
-      "about.description.part1":
-        "Zaangażowany Full-Stack Developer z doświadczeniem w projektowaniu, tworzeniu oraz testowaniu aplikacji internetowych.",
-      "about.description.part2":
-        "Posiadam solidne umiejętności w obszarze programowania. Zdobyłem doświadczenie w pracy z klientami, tworzeniu platform ułatwiających zarządzanie zamówieniami, przeprowadzaniu przeglądów kodu.",
-      "about.description.part3":
-        "Posiadam umiejętność efektywnego przekazywania wiedzy technicznej oraz prowadzenia zajęć z programowania. Cechuje mnie analityczne myślenie, dbałość o szczegóły oraz umiejętność pracy zespołowej.",
+      "about.description.part1": "Zaangażowany Full-Stack Developer z doświadczeniem w projektowaniu, tworzeniu oraz testowaniu aplikacji internetowych.",
+      "about.description.part2": "Posiadam solidne umiejętności w obszarze programowania. Zdobyłem doświadczenie w pracy z klientami, tworzeniu platform ułatwiających zarządzanie zamówieniami, przeprowadzaniu przeglądów kodu.",
+      "about.description.part3": "Posiadam umiejętność efektywnego przekazywania wiedzy technicznej oraz prowadzenia zajęć z programowania. Cechuje mnie analityczne myślenie, dbałość o szczegóły oraz umiejętność pracy zespołowej.",
       "about.resume": "Pobierz CV",
       "projects.title": "Projekty",
-      "projects.viewCode": "Projekt",
+      "projects.viewCode": "Kod",
       "projects.liveDemo": "Demo",
       "skills.title": "Umiejętności",
       "contact.title": "Kontakt",
@@ -58,18 +49,19 @@ const resources = {
       "projects.showMore": "Pokaż Więcej",
       "projects.showLess": "Pokaż Mniej",
       "contact.success": "Wiadomość została wysłana pomyślnie!",
-      "contact.error":
-        "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie później.",
-    },
-  },
+      "contact.error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie później."
+    }
+  }
 };
 
-i18n.use(initReactI18next).init({
-  resources,
-  lng: "en",
-  interpolation: {
-    escapeValue: false,
-  },
-});
+i18n
+  .use(initReactI18next)
+  .init({
+    resources,
+    lng: "en",
+    interpolation: {
+      escapeValue: false
+    }
+  });
 
 export default i18n;

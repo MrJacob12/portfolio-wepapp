@@ -9,29 +9,28 @@ export const Hero = () => {
   const scrollDown = () => {
     window.scrollTo({
       top: window.innerHeight,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
   return (
-    <section id="hero" className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 to-secondary/5">
+    <section
+      id="hero"
+      className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary/5 to-secondary/5"
+    >
       <div className="container px-4 animate-fade-up">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl md:text-6xl font-bold mb-6">
-            Jakub Buciuto
-          </h1>
+          <h1 className="text-3xl md:text-6xl font-bold mb-6">Jakub Buciuto</h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            {t('hero.subtitle')}
+            {t("hero.subtitle")}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <ScrollLink to="projects" smooth={true} duration={500}>
-              <Button size="lg">
-                {t('projects.viewCode')}
-              </Button>
+              <Button size="lg">{t("projects.title")}</Button>
             </ScrollLink>
             <ScrollLink to="contact" smooth={true} duration={500}>
               <Button variant="outline" size="lg">
-                {t('contact.title')}
+                {t("contact.title")}
               </Button>
             </ScrollLink>
           </div>
