@@ -1,19 +1,34 @@
 [
-    {
-        "title": "Space Idle Game",
-        "description": "Space Idle Game is a web-based game that allows players to explore the universe, gather resources, and build a powerful empire.",
-        "author": [
-            {
-                "name": "MrJacob12",
-                "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-            }
-        ],
-        "isPrivate": true,
-        "img": "/images/space-idle-game.png",
-        "github": "https://github.com/DeepVoidGames/SpaceIdle",
-        "href": "https://cloud.fern.fun/space/",
-        "tags": ["react", "typescript", "english"]
-    },
+  {
+    "title": "Space Idle Game",
+    "description": "Space Idle Game is a web-based game that allows players to explore the universe, gather resources, and build a powerful empire.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/space-idle-game.png",
+    "github": "https://github.com/DeepVoidGames/SpaceIdle",
+    "href": "https://cloud.fern.fun/space/",
+    "tags": ["react", "typescript", "english"]
+  },
+  {
+    "title": "Deepvoid Games",
+    "description": "Passion for games drives our studio. We create unique worlds where players experience amazing stories.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": false,
+    "img": "/images/deepvoid.dev.png",
+    "github": "https://github.com/DeepVoidGames/Page",
+    "href": "https://deepvoid.dev/",
+    "tags": ["react", "typescript", "english"]
+  },
   {
     "title": "food.fern.fun",
     "description": "Recipe page project is a web application that provides users with a collection of recipes to explore and try out. Users can search for recipes based on tags and titles",
