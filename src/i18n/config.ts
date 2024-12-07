@@ -24,7 +24,21 @@ const resources = {
       "projects.showMore": "Show More",
       "projects.showLess": "Show Less",
       "contact.success": "Message sent successfully!",
-      "contact.error": "An error occurred while sending the message. Please try again later."
+      "contact.error": "An error occurred while sending the message. Please try again later.",
+      "services.title": "My Services",
+      "services.first.title": "Websites and Hosting",
+      "services.first.description": "Creating dynamic websites, hosting, and domain management. Comprehensive service from design to deployment.",
+      "services.first.features.first": "Responsive websites",
+      "services.first.features.second": "Hosting and domain management",
+      "services.first.features.third": "Regular maintenance",
+      "services.first.features.fourth": "24/7 technical support",
+
+      "services.second.title": "Process Automation",
+      "services.second.description": "Designing and implementing solutions that automate business processes, increasing work efficiency.",
+      "services.second.features.first": "Business process analysis",
+      "services.second.features.second": "Custom solutions",
+      "services.second.features.third": "System integration",
+      "services.second.features.fourth": "Workflow optimization"
     }
   },
   pl: {
@@ -49,7 +63,20 @@ const resources = {
       "projects.showMore": "Pokaż Więcej",
       "projects.showLess": "Pokaż Mniej",
       "contact.success": "Wiadomość została wysłana pomyślnie!",
-      "contact.error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie później."
+      "contact.error": "Wystąpił błąd podczas wysyłania wiadomości. Spróbuj ponownie później.",
+      "services.title": "Moje Usługi",
+      "services.first.title": "Strony Internetowe i Hosting",
+      "services.first.description": "Tworzenie dynamicznych stron internetowych, hosting oraz zarządzanie domenami. Kompleksowa obsługa od projektu po wdrożenie.",
+      "services.first.features.first": "Responsywne strony internetowe",
+      "services.first.features.second": "Hosting i zarządzanie domeną",
+      "services.first.features.third": "Regularna konserwacja",
+      "services.first.features.fourth": "Wsparcie techniczne 24/7",
+      "services.second.title": "Automatyzacja Procesów",
+      "services.second.description": "Projektowanie i wdrażanie rozwiązań automatyzujących procesy biznesowe, zwiększających efektywność pracy.",
+      "services.second.features.first": "Analiza procesów biznesowych",
+      "services.second.features.second": "Customizowane rozwiązania",
+      "services.second.features.third": "Integracja systemów",
+      "services.second.features.fourth": "Optymalizacja workflow",
     }
   }
 };

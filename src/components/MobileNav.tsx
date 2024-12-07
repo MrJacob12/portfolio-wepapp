@@ -16,6 +16,7 @@ export const MobileNav = () => {
   
   const navItems = [
     { href: "about", label: t('about.title') },
+    { href: "services", label: t('services.title')},
     { href: "projects", label: t('projects.title') },
     { href: "skills", label: t('skills.title') },
     { href: "contact", label: t('contact.title') },
