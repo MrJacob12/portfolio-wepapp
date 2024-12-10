@@ -1,5 +1,20 @@
 [
   {
+    "title": "EcoNest",
+    "description": "Aquarium diary application that allows users to upload and manage aquarium images with detailed descriptions, analysis status, and customizable metadata such as titles and dates.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": false,
+    "img": "/images/econest.fern.fun.png",
+    "github": "https://github.com/MrJacob12/EcoNest",
+    "href": "https://econest.fern.fun/",
+    "tags": ["react", "typescript", "english"]
+  },
+  {
     "title": "Space Idle Game",
     "description": "Space Idle Game is a web-based game that allows players to explore the universe, gather resources, and build a powerful empire.",
     "author": [
