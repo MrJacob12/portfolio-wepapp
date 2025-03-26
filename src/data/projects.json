@@ -1,5 +1,61 @@
 [
   {
+    "title": "DeepvoidGate",
+    "description": "Web based Space Idle management game where players can explore the universe, gather resources, and build a powerful colony.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/deepvoidgate.png",
+    "href": "https://cloud.fern.fun/deepvoidgate/demo/",
+    "tags": ["react", "typescript", "rust", "english"]
+  },
+  {
+    "title": "Bakosport",
+    "description": "The company's website is a showcase of their products and services, providing customers with information about the company's history, mission, and contact details.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/bakosport.com.png",
+    "href": "https://bakosport.com/",
+    "tags": ["react", "typescript", "polish"]
+  },
+  {
+    "title": "PLAST-BUD",
+    "description": "The company's website is a showcase of their products and services, providing customers with information about the company's history, mission, and contact details.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/plast-bud.com.pl.png",
+    "href": "https://plast-bud.com.pl/",
+    "tags": ["react", "typescript", "polish"]
+  },
+  {
+    "title": "PHU \"MADOR\"",
+    "description": "The company's website is a showcase of their products and services, providing customers with information about the company's history, mission, and contact details.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/mador.sosnowiec.pl.png",
+    "href": "http://mador.sosnowiec.pl/",
+    "tags": ["react", "typescript", "polish"]
+  },
+  {
     "title": "EcoNest",
     "description": "Aquarium diary application that allows users to upload and manage aquarium images with detailed descriptions, analysis status, and customizable metadata such as titles and dates.",
     "author": [
