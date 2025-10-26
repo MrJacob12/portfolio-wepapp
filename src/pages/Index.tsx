@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
@@ -8,9 +8,19 @@ import Navbar from "@/components/Navbar";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 import Contact from "@/components/sections/Contact";
+import { useSearchParams } from "react-router-dom";
 
 const Index = () => {
-  const { t } = useTranslation();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const { t, i18n } = useTranslation();
+
+  const lang = searchParams.get("l");
+
+  React.useEffect(() => {
+    if (lang && i18n.hasResourceBundle(lang, "translation")) {
+      i18n.changeLanguage(lang);
+    }
+  });
 
   return (
     <div className="min-h-screen bg-background text-foreground transition-colors duration-300">
@@ -22,7 +32,7 @@ const Index = () => {
 
       {/* Projects Section */}
       <Projects />
-      
+
       {/* Skills Section */}
       <Skills />
 
