@@ -1,4 +1,4 @@
-import { Code, Server, Rocket, Globe, Wrench, Zap } from "lucide-react";
+import { Code, Server, Rocket, Globe, Wrench, Zap, Bot } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 
@@ -28,6 +28,17 @@ const Services = () => {
                 { text: t("services.second.features.fourth"), icon: <Rocket className="w-4 h-4 mr-2 text-blue-400" /> },
             ],
         },
+        {
+            title: t("services.third.title"),
+            description: t("services.third.description"),
+            icon: <Bot className="w-8 h-8 mb-4 text-blue-400" />,
+            features: [
+                { text: t("services.third.features.first"), icon: <Zap className="w-4 h-4 mr-2 text-blue-400" /> },
+                { text: t("services.third.features.second"), icon: <Code className="w-4 h-4 mr-2 text-blue-400" /> },
+                { text: t("services.third.features.third"), icon: <Globe className="w-4 h-4 mr-2 text-blue-400" /> },
+                { text: t("services.third.features.fourth"), icon: <Wrench className="w-4 h-4 mr-2 text-blue-400" /> },
+            ],
+        },
     ];
 
     return (
@@ -42,7 +53,7 @@ const Services = () => {
                     {t("services.title")}
                 </motion.h2>
                 
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <motion.div
                             key={index}

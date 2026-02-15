@@ -46,6 +46,13 @@ const resources = {
       "services.second.features.second": "Custom solutions",
       "services.second.features.third": "System integration",
       "services.second.features.fourth": "Workflow optimization",
+      "services.third.title": "AI Solutions",
+      "services.third.description":
+        "Development and implementation of intelligent systems and machine learning models to optimize operations and create innovative products.",
+      "services.third.features.first": "Custom AI model development",
+      "services.third.features.second": "Integration of AI into existing systems",
+      "services.third.features.third": "Data analysis and predictive modeling",
+      "services.third.features.fourth": "Automation with intelligent algorithms",
     },
   },
   pl: {
@@ -92,6 +99,13 @@ const resources = {
       "services.second.features.second": "Customizowane rozwiązania",
       "services.second.features.third": "Integracja systemów",
       "services.second.features.fourth": "Optymalizacja workflow",
+      "services.third.title": "Rozwiązania AI",
+      "services.third.description":
+        "Rozwój i wdrażanie inteligentnych systemów oraz modeli uczenia maszynowego w celu optymalizacji działań i tworzenia innowacyjnych produktów.",
+      "services.third.features.first": "Rozwój niestandardowych modeli AI",
+      "services.third.features.second": "Integracja AI z istniejącymi systemami",
+      "services.third.features.third": "Analiza danych i modelowanie predykcyjne",
+      "services.third.features.fourth": "Automatyzacja za pomocą inteligentnych algorytmów",
     },
   },
 };
