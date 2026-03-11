@@ -14,7 +14,7 @@ function Skills() {
 
     return (
         <section id="skills" className="py-16 md:py-20 bg-white dark:bg-gray-900">
-            <div className="container px-4">
+            <div className="container px-4 max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center">
                 {t("skills.title")}
             </h2>

@@ -43,7 +43,7 @@ const Services = () => {
 
     return (
         <section className="py-16 md:py-20 bg-gray-50 dark:bg-gray-800" id="services">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 max-w-7xl">
                 <motion.h2 
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}

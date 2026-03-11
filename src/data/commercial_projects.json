@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Wydawnictwo Dragon",
+    "description": "Developed a professional corporate platform for a leading publishing house. The solution features a comprehensive digital product catalog with advanced categorization and search capabilities, enabling readers to seamlessly browse a diverse range of titles.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/placeholder.svg",
+    "href": "http://wydawnictwo-dragon.pl/",
+    "tags": ["React", "TypeScript", "UI/UX", "SEO"]
+  },
+  {
+    "title": "Bakosport",
+    "description": "Engineered a robust corporate website featuring a custom Content Management System (CMS) and a dedicated project management panel. The system provides the client with complete control over their portfolio and service realisations, streamlining their digital presence.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/bakosport.com.png",
+    "href": "https://bakosport.com/",
+    "tags": ["React", "TypeScript", "Custom CMS", "Frontend"]
+  },
+  {
+    "title": "PLAST-BUD",
+    "description": "Designed and implemented a high-performance business showcase with an integrated content delivery system. The project included a tailored administrative panel for managing real-time updates of the company's extensive service portfolio.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/plast-bud.com.pl.png",
+    "href": "https://plast-bud.com.pl/",
+    "tags": ["React", "TypeScript", "System Integration", "Responsive Design"]
+  },
+  {
+    "title": "PHU \"MADOR\"",
+    "description": "Built a comprehensive digital storefront and product catalog for an industrial supplier. Focused on delivering a highly performant user interface with detailed technical specifications and optimized imagery to facilitate business-to-business decision making.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": true,
+    "img": "/images/mador.sosnowiec.pl.png",
+    "href": "https://mador.sosnowiec.pl/",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Product Catalog",
+      "Performance Optimization"
+    ]
+  }
+]

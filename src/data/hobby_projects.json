@@ -1,7 +1,22 @@
 [
   {
+    "title": "Rickverse",
+    "description": "An immersive idle card collection game set in the Rick and Morty multiverse. Developed with strategic mechanics, featuring a custom resource management engine and optimized state handling for smooth incremental gameplay.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": false,
+    "img": "/placeholder.svg",
+    "href": "https://rickverse.fern.fun/",
+    "github": "https://github.com/DeepVoidGames/Unknown",
+    "tags": ["React", "TypeScript", "Game Dev", "Redux"]
+  },
+  {
     "title": "DeepvoidGate",
-    "description": "Web based Space Idle management game where players can explore the universe, gather resources, and build a powerful colony.",
+    "description": "A complex web-based Space Idle management game. Utilizes a high-performance backend and a React-based interface for exploring the universe, resource management, and colony building.",
     "author": [
       {
         "name": "MrJacob12",
@@ -11,53 +26,11 @@
     "isPrivate": true,
     "img": "/images/deepvoidgate.png",
     "href": "https://cloud.fern.fun/deepvoidgate/demo/",
-    "tags": ["react", "typescript", "rust", "english"]
-  },
-  {
-    "title": "Bakosport",
-    "description": "The company's website is a showcase of their products and services, providing customers with information about the company's history, mission, and contact details.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/bakosport.com.png",
-    "href": "https://bakosport.com/",
-    "tags": ["react", "typescript", "polish"]
-  },
-  {
-    "title": "PLAST-BUD",
-    "description": "The company's website is a showcase of their products and services, providing customers with information about the company's history, mission, and contact details.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/plast-bud.com.pl.png",
-    "href": "https://plast-bud.com.pl/",
-    "tags": ["react", "typescript", "polish"]
-  },
-  {
-    "title": "PHU \"MADOR\"",
-    "description": "The company's website is a showcase of their products and services, providing customers with information about the company's history, mission, and contact details.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/mador.sosnowiec.pl.png",
-    "href": "http://mador.sosnowiec.pl/",
-    "tags": ["react", "typescript", "polish"]
+    "tags": ["React", "TypeScript", "Node.js", "WebAssembly"]
   },
   {
     "title": "EcoNest",
-    "description": "Aquarium diary application that allows users to upload and manage aquarium images with detailed descriptions, analysis status, and customizable metadata such as titles and dates.",
+    "description": "An aquarium diary application focusing on metadata management and image analysis. Features include custom file handling, status tracking, and a highly interactive UI for managing aquatic life documentation.",
     "author": [
       {
         "name": "MrJacob12",
@@ -68,11 +41,11 @@
     "img": "/images/econest.fern.fun.png",
     "github": "https://github.com/MrJacob12/EcoNest",
     "href": "https://econest.fern.fun/",
-    "tags": ["react", "typescript", "english"]
+    "tags": ["React", "TypeScript", "Frontend", "Cloud Storage"]
   },
   {
     "title": "Space Idle Game",
-    "description": "Space Idle Game is a web-based game that allows players to explore the universe, gather resources, and build a powerful empire.",
+    "description": "An empire-building simulation where players manage resources and expand through the universe. Focused on algorithmic scaling and progressive game balance.",
     "author": [
       {
         "name": "MrJacob12",
@@ -83,11 +56,11 @@
     "img": "/images/space-idle-game.png",
     "github": "https://github.com/DeepVoidGames/SpaceIdle",
     "href": "https://cloud.fern.fun/space/",
-    "tags": ["react", "typescript", "english"]
+    "tags": ["React", "TypeScript", "Game Mechanics", "State Management"]
   },
   {
     "title": "Deepvoid Games",
-    "description": "Passion for games drives our studio. We create unique worlds where players experience amazing stories.",
+    "description": "Portfolio and landing page for an independent game studio. Designed with high-quality visual storytelling and clean, modern aesthetics to showcase unique game worlds.",
     "author": [
       {
         "name": "MrJacob12",
@@ -98,11 +71,11 @@
     "img": "/images/deepvoid.dev.png",
     "github": "https://github.com/DeepVoidGames/Page",
     "href": "https://deepvoid.dev/",
-    "tags": ["react", "typescript", "english"]
+    "tags": ["React", "TypeScript", "TailwindCSS", "Animations"]
   },
   {
     "title": "food.fern.fun",
-    "description": "Recipe page project is a web application that provides users with a collection of recipes to explore and try out. Users can search for recipes based on tags and titles",
+    "description": "A specialized recipe exploration platform with advanced tagging and search functionality. Implements complex filtering logic to provide a seamless user experience for discovering culinary inspiration.",
     "author": [
       {
         "name": "MrJacob12",
@@ -113,11 +86,11 @@
     "img": "/images/food.fern.fun.png",
     "github": "https://github.com/Fern-fun/food.fern.fun",
     "href": "https://food.fern.fun/",
-    "tags": ["react", "typescript", "polish"]
+    "tags": ["React", "TypeScript", "Filtering", "UX"]
   },
   {
     "title": "apiv2.fern.fun",
-    "description": "This API project is designed to provide a backend service for a web or mobile application. It allows users to create, read, update, and delete data through RESTful endpoints.",
+    "description": "A high-performance backend service designed with Python. Features include robust RESTful API architecture, CRUD operations, and scalable endpoint management for mobile and web consumption.",
     "author": [
       {
         "name": "MrJacob12",
@@ -128,11 +101,11 @@
     "img": "/images/api.fern.fun.png",
     "github": "https://github.com/Fern-fun/api.fern.fun",
     "href": "https://apiv2.fern.fun/",
-    "tags": ["python", "english"]
+    "tags": ["Python", "REST API", "Backend", "CRUD"]
   },
   {
     "title": "games.fern.fun",
-    "description": "The guessing game project involves identifying the correct flag from a set of options. Players are challenged to test their knowledge and recognition of various flags from around the world.",
+    "description": "An educational geography game challenge. Implements interactive game logic and state management to test users' recognition of world flags and geographical data.",
     "author": [
       {
         "name": "MrJacob12",
@@ -143,11 +116,11 @@
     "img": "/images/games.fern.fun.png",
     "github": "https://github.com/Fern-fun/games.fern.fun",
     "href": "https://games.fern.fun/",
-    "tags": ["react", "english"]
+    "tags": ["React", "Game Logic", "EdTech"]
   },
   {
     "title": "elektronhack",
-    "description": "Our project involves organizing a hackathon event that brings together developers, designers, and entrepreneurs to collaborate on building innovative solutions within a limited time frame.",
+    "description": "Collaborative hackathon platform created to facilitate innovation. Developed the landing page and event management interface to coordinate developers, designers, and entrepreneurs.",
     "author": [
       {
         "name": "MrJacob12",
@@ -162,11 +135,11 @@
     "img": "/images/elektronhack.png",
     "github": "https://github.com/QQLKAA/elektronhack-landing",
     "href": "https://zse.edu.pl/elektronhack/",
-    "tags": ["react", "polish"]
+    "tags": ["React", "Event Platform", "Open Source"]
   },
   {
     "title": "tools.fern.fun",
-    "description": "The project aims to develop web development tools that assist programmers in creating websites efficiently and with ease",
+    "description": "A suite of web development utilities designed to increase developer efficiency. Includes tools for rapid prototyping and common programming tasks.",
     "author": [
       {
         "name": "MrJacob12",
@@ -177,11 +150,11 @@
     "img": "/images/tools.fern.fun.png",
     "github": "https://github.com/Fern-fun/tools.fern.fun",
     "href": "https://tools.fern.fun/",
-    "tags": ["react", "english"]
+    "tags": ["React", "Developer Tools", "Utility"]
   },
   {
     "title": "ssh-alert",
-    "description": "ssh alert is a simple tool to alert you when someone is trying to login to your server via ssh.",
+    "description": "A security monitoring tool that provides real-time notifications for SSH login attempts, increasing server security awareness.",
     "author": [
       {
         "name": "MrJacob12",
@@ -192,11 +165,11 @@
     "img": "/images/ssh-alert.png",
     "href": "https://github.com/MrJacob12/ssh-alert",
     "github": "https://github.com/MrJacob12/ssh-alert",
-    "tags": ["rust", "english"]
+    "tags": ["Python", "Security", "CLI", "Server"]
   },
   {
     "title": "cloud.fern.fun",
-    "description": "Cloud storage project is a platform for storing and accessing data over the internet, providing users with scalable and secure storage infrastructure.",
+    "description": "A scalable cloud storage platform built for secure data access. Focuses on robust infrastructure, scalable storage architecture, and modern web security practices.",
     "author": [
       {
         "name": "MrJacob12",
@@ -207,11 +180,11 @@
     "img": "/images/cloud.fern.fun.png",
     "github": "https://github.com/Fern-fun/cloud.fern.fun",
     "href": "",
-    "tags": ["react", "typescript", "english"]
+    "tags": ["React", "TypeScript", "Cloud Storage", "Security"]
   },
   {
     "title": "pi.fern.fun",
-    "description": "Server dashboard project is a web application that provides an overview of server status, system health metrics, and logs in real-time.",
+    "description": "A real-time server dashboard for monitoring system health. Features live metrics, system status overview, and log management for Raspberry Pi and similar server environments.",
     "author": [
       {
         "name": "MrJacob12",
@@ -221,7 +194,7 @@
     "isPrivate": false,
     "img": "/images/pi.fern.fun.png",
     "github": "https://github.com/Fern-fun/pi.fern.fun",
-    "href": "https://pi.fern.fun/",
-    "tags": ["react", "english"]
+    "href": "https://dashboard.fern.fun/",
+    "tags": ["React", "Dashboard", "Real-time Metrics", "System Monitoring"]
   }
 ]

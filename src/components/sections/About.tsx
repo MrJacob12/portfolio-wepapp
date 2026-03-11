@@ -5,7 +5,7 @@ export const About = () => {
 
   return (
     <section id="about" className="py-16 md:py-20 bg-white dark:bg-gray-900">
-      <div className="container px-4">
+      <div className="container px-4 max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center">{t('about.title')}</h2>
         <div className="max-w-3xl mx-auto space-y-4 md:space-y-6">
           <p className="text-base md:text-lg text-gray-600 dark:text-gray-300">

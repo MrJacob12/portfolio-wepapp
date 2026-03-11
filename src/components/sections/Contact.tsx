@@ -16,7 +16,7 @@ function Contact() {
             id="contact"
             className="py-16 md:py-20 bg-gray-50 dark:bg-gray-900"
         >
-            <div className="container px-4">
+            <div className="container px-4 max-w-7xl mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold mb-8 md:mb-12 text-center">
                 {t("contact.title")}
             </h2>
@@ -98,7 +98,7 @@ function Contact() {
                     <Github className="h-6 w-6" />
                 </a>
                 <a
-                    href="https://www.linkedin.com/in/jakub-buciuto/"
+                    href="https://pl.linkedin.com/in/jakub-buciuto"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary"
