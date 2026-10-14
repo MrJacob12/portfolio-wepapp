@@ -1,1 +1,1 @@
-# Full-Stack Developer Portfolio
+# Open Source & AI Developer Portfolio

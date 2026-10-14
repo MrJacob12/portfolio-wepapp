@@ -13,10 +13,12 @@ export const Hero = () => {
       icon: "https://cdn.simpleicons.org/typescript/3178C6",
     },
     { name: "Python", icon: "https://cdn.simpleicons.org/python/3776AB" },
+    { name: "FastAPI", icon: "https://cdn.simpleicons.org/fastapi/009688" },
     {
       name: "PostgreSQL",
       icon: "https://cdn.simpleicons.org/postgresql/4169E1",
     },
+    { name: "Rust", icon: "https://cdn.simpleicons.org/rust/DEA584" },
     { name: "Node.js", icon: "https://cdn.simpleicons.org/nodedotjs/339933" },
   ];
 
@@ -35,7 +37,7 @@ export const Hero = () => {
           <div className="animate-fade-up">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-bold mb-6 uppercase tracking-wider">
               <Code2 className="h-4 w-4" />
-              Available for new projects
+              {t("hero.badge")}
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black mb-6 text-gray-900 dark:text-white leading-[1.1]">
@@ -115,20 +117,20 @@ export const Hero = () => {
                 <div className="pl-4">
                   <span className="text-purple-400">"role"</span>:{" "}
                   <span className="text-emerald-400">
-                    "Full-Stack Developer"
+                    "Open Source Developer"
                   </span>
                   ,
                 </div>
                 <div className="pl-4">
                   <span className="text-purple-400">"specialization"</span>: [
-                  <span className="text-emerald-400">"Web"</span>,{" "}
-                  <span className="text-emerald-400">"Automation"</span>],
+                  <span className="text-emerald-400">"Open Source"</span>,{" "}
+                  <span className="text-emerald-400">"DevOps"</span>],
                 </div>
                 <div className="pl-4">
                   <span className="text-purple-400">"top_skills"</span>: [
-                  <span className="text-emerald-400">"React"</span>,{" "}
+                  <span className="text-emerald-400">"Python"</span>,{" "}
                   <span className="text-emerald-400">"TypeScript"</span>,{" "}
-                  <span className="text-emerald-400">"Python"</span>],
+                  <span className="text-emerald-400">"Docker"</span>],
                 </div>
                 <div className="pl-4">
                   <span className="text-purple-400">"availability"</span>:{" "}

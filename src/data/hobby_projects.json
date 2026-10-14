@@ -1,7 +1,7 @@
 [
   {
-    "title": "Rickverse",
-    "description": "An immersive idle card collection game set in the Rick and Morty multiverse. Developed with strategic mechanics, featuring a custom resource management engine and optimized state handling for smooth incremental gameplay.",
+    "title": "PyMails",
+    "description": "Simple open-source Python tools for sending email. Straightforward helpers for programmatic mail delivery in scripts and applications.",
     "author": [
       {
         "name": "MrJacob12",
@@ -9,182 +9,13 @@
       }
     ],
     "isPrivate": false,
-    "img": "/placeholder.svg",
-    "href": "https://rickverse.fern.fun/",
-    "github": "https://github.com/DeepVoidGames/Unknown",
-    "tags": ["React", "TypeScript", "Game Dev", "Redux"]
-  },
-  {
-    "title": "DeepvoidGate",
-    "description": "A complex web-based Space Idle management game. Utilizes a high-performance backend and a React-based interface for exploring the universe, resource management, and colony building.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/deepvoidgate.png",
-    "href": "https://cloud.fern.fun/deepvoidgate/demo/",
-    "tags": ["React", "TypeScript", "Node.js", "WebAssembly"]
-  },
-  {
-    "title": "EcoNest",
-    "description": "An aquarium diary application focusing on metadata management and image analysis. Features include custom file handling, status tracking, and a highly interactive UI for managing aquatic life documentation.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": false,
-    "img": "/images/econest.fern.fun.png",
-    "github": "https://github.com/MrJacob12/EcoNest",
-    "href": "https://econest.fern.fun/",
-    "tags": ["React", "TypeScript", "Frontend", "Cloud Storage"]
-  },
-  {
-    "title": "Space Idle Game",
-    "description": "An empire-building simulation where players manage resources and expand through the universe. Focused on algorithmic scaling and progressive game balance.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/space-idle-game.png",
-    "github": "https://github.com/DeepVoidGames/SpaceIdle",
-    "href": "https://cloud.fern.fun/space/",
-    "tags": ["React", "TypeScript", "Game Mechanics", "State Management"]
-  },
-  {
-    "title": "Deepvoid Games",
-    "description": "Portfolio and landing page for an independent game studio. Designed with high-quality visual storytelling and clean, modern aesthetics to showcase unique game worlds.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": false,
-    "img": "/images/deepvoid.dev.png",
-    "github": "https://github.com/DeepVoidGames/Page",
-    "href": "https://deepvoid.dev/",
-    "tags": ["React", "TypeScript", "TailwindCSS", "Animations"]
-  },
-  {
-    "title": "food.fern.fun",
-    "description": "A specialized recipe exploration platform with advanced tagging and search functionality. Implements complex filtering logic to provide a seamless user experience for discovering culinary inspiration.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/food.fern.fun.png",
-    "github": "https://github.com/Fern-fun/food.fern.fun",
-    "href": "https://food.fern.fun/",
-    "tags": ["React", "TypeScript", "Filtering", "UX"]
-  },
-  {
-    "title": "apiv2.fern.fun",
-    "description": "A high-performance backend service designed with Python. Features include robust RESTful API architecture, CRUD operations, and scalable endpoint management for mobile and web consumption.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/api.fern.fun.png",
-    "github": "https://github.com/Fern-fun/api.fern.fun",
-    "href": "https://apiv2.fern.fun/",
-    "tags": ["Python", "REST API", "Backend", "CRUD"]
-  },
-  {
-    "title": "games.fern.fun",
-    "description": "An educational geography game challenge. Implements interactive game logic and state management to test users' recognition of world flags and geographical data.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": false,
-    "img": "/images/games.fern.fun.png",
-    "github": "https://github.com/Fern-fun/games.fern.fun",
-    "href": "https://games.fern.fun/",
-    "tags": ["React", "Game Logic", "EdTech"]
-  },
-  {
-    "title": "elektronhack",
-    "description": "Collaborative hackathon platform created to facilitate innovation. Developed the landing page and event management interface to coordinate developers, designers, and entrepreneurs.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      },
-      {
-        "name": "QQLKAA",
-        "icon": "https://avatars.githubusercontent.com/u/27441333?v=4"
-      }
-    ],
-    "isPrivate": false,
-    "img": "/images/elektronhack.png",
-    "github": "https://github.com/QQLKAA/elektronhack-landing",
-    "href": "https://zse.edu.pl/elektronhack/",
-    "tags": ["React", "Event Platform", "Open Source"]
-  },
-  {
-    "title": "tools.fern.fun",
-    "description": "A suite of web development utilities designed to increase developer efficiency. Includes tools for rapid prototyping and common programming tasks.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": false,
-    "img": "/images/tools.fern.fun.png",
-    "github": "https://github.com/Fern-fun/tools.fern.fun",
-    "href": "https://tools.fern.fun/",
-    "tags": ["React", "Developer Tools", "Utility"]
-  },
-  {
-    "title": "ssh-alert",
-    "description": "A security monitoring tool that provides real-time notifications for SSH login attempts, increasing server security awareness.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": false,
-    "img": "/images/ssh-alert.png",
-    "href": "https://github.com/MrJacob12/ssh-alert",
-    "github": "https://github.com/MrJacob12/ssh-alert",
-    "tags": ["Python", "Security", "CLI", "Server"]
-  },
-  {
-    "title": "cloud.fern.fun",
-    "description": "A scalable cloud storage platform built for secure data access. Focuses on robust infrastructure, scalable storage architecture, and modern web security practices.",
-    "author": [
-      {
-        "name": "MrJacob12",
-        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
-      }
-    ],
-    "isPrivate": true,
-    "img": "/images/cloud.fern.fun.png",
-    "github": "https://github.com/Fern-fun/cloud.fern.fun",
     "href": "",
-    "tags": ["React", "TypeScript", "Cloud Storage", "Security"]
+    "github": "https://github.com/MrJacob12/PyMails",
+    "tags": ["Python", "Email", "Library", "Open Source"]
   },
   {
-    "title": "pi.fern.fun",
-    "description": "A real-time server dashboard for monitoring system health. Features live metrics, system status overview, and log management for Raspberry Pi and similar server environments.",
+    "title": "ColorPaletteVisualization",
+    "description": "JavaScript utility for building and visualizing color palettes. Interactive tooling for exploring and generating color schemes.",
     "author": [
       {
         "name": "MrJacob12",
@@ -192,9 +23,22 @@
       }
     ],
     "isPrivate": false,
-    "img": "/images/pi.fern.fun.png",
-    "github": "https://github.com/Fern-fun/pi.fern.fun",
-    "href": "https://dashboard.fern.fun/",
-    "tags": ["React", "Dashboard", "Real-time Metrics", "System Monitoring"]
+    "href": "",
+    "github": "https://github.com/MrJacob12/ColorPaletteVisualization",
+    "tags": ["JavaScript", "Visualization", "Utility", "Open Source"]
+  },
+  {
+    "title": "react-electron",
+    "description": "Minimal open-source starter template combining React with Electron, providing a quick bootstrap for cross-platform desktop applications.",
+    "author": [
+      {
+        "name": "MrJacob12",
+        "icon": "https://avatars.githubusercontent.com/u/46843555?v=4"
+      }
+    ],
+    "isPrivate": false,
+    "href": "",
+    "github": "https://github.com/MrJacob12/react-electron",
+    "tags": ["JavaScript", "Electron", "React", "Open Source"]
   }
 ]

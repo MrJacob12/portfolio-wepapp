@@ -17,9 +17,9 @@ export const About = () => {
           <p className="text-base md:text-lg text-gray-600 dark:text-gray-300">
             {t('about.description.part3')}
           </p>
-          <a href="/jakub_buciuto_it.pdf" download className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-primary-foreground bg-primary hover:bg-primary-dark focus:outline-none">
-            {t('about.resume')}
-          </a>
+          <p className="text-base md:text-lg text-gray-600 dark:text-gray-300">
+            {t('about.description.part4')}
+          </p>
         </div>
       </div>
     </section>

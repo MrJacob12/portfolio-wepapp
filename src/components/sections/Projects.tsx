@@ -2,17 +2,27 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Github, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { animateScroll as scroll } from "react-scroll";
 
 import commercialProjects from "@/data/commercial_projects.json";
 import hobbyProjects from "@/data/hobby_projects.json";
 
+type Project = {
+  title: string;
+  description: string;
+  isPrivate: boolean;
+  href?: string;
+  github?: string;
+  tags: string[];
+};
+
 function Projects() {
   const { t } = useTranslation();
-  const [showAllHobby, setShowAllHobby] = useState(false);
 
-  const displayedHobby = showAllHobby ? hobbyProjects : hobbyProjects.slice(0, 6);
+  const allProjects: Project[] = [...commercialProjects, ...hobbyProjects];
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedProjects = showAll ? allProjects : allProjects.slice(0, 6);
 
   const scrollToProjects = () => {
     scroll.scrollTo(document.getElementById("projects").offsetTop, {
@@ -21,15 +31,8 @@ function Projects() {
     });
   };
 
-  const ProjectCard = ({ project }: { project: any }) => (
+  const ProjectCard = ({ project }: { project: Project }) => (
     <div className="bg-white dark:bg-gray-900 p-4 md:p-6 rounded-lg transition-all border border-gray-100 dark:border-gray-800 flex flex-col h-full hover:shadow-lg">
-      <div className="aspect-video bg-gray-100 dark:bg-gray-800 rounded-lg mb-4 overflow-hidden">
-        <img
-          src={project.img || "/placeholder.svg"}
-          alt={project.title}
-          className="w-full h-full object-cover"
-        />
-      </div>
       <h3 className="text-lg md:text-xl font-semibold mb-2">
         {project.title}
       </h3>
@@ -77,43 +80,31 @@ function Projects() {
           {t("projects.title")}
         </h2>
 
-        <Tabs defaultValue="commercial" className="w-full">
-          <div className="flex justify-center mb-8">
-            <TabsList className="grid w-full max-w-[400px] grid-cols-2">
-              <TabsTrigger value="commercial">{t("projects.commercial")}</TabsTrigger>
-              <TabsTrigger value="hobby">{t("projects.hobby")}</TabsTrigger>
-            </TabsList>
+        <div className="flex justify-center mb-10">
+          <span className="px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-bold">
+            {t("projects.tools")}
+          </span>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {displayedProjects.map((project, index) => (
+            <ProjectCard key={index} project={project} />
+          ))}
+        </div>
+
+        {allProjects.length > 6 && (
+          <div className="text-center mt-10">
+            <Button
+              onClick={() => {
+                if (showAll) scrollToProjects();
+                setShowAll(!showAll);
+              }}
+              variant="outline"
+            >
+              {showAll ? t("projects.showLess") : t("projects.showMore")}
+            </Button>
           </div>
-
-          <TabsContent value="commercial">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {commercialProjects.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-              ))}
-            </div>
-          </TabsContent>
-
-          <TabsContent value="hobby">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {displayedHobby.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-              ))}
-            </div>
-            {hobbyProjects.length > 6 && (
-              <div className="text-center mt-10">
-                <Button 
-                  onClick={() => {
-                    if (showAllHobby) scrollToProjects();
-                    setShowAllHobby(!showAllHobby);
-                  }} 
-                  variant="outline"
-                >
-                  {showAllHobby ? t("projects.showLess") : t("projects.showMore")}
-                </Button>
-              </div>
-            )}
-          </TabsContent>
-        </Tabs>
+        )}
       </div>
     </section>
   );
